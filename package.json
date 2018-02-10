@@ -1,0 +1,44 @@
+{
+  "name": "react-depth-of-field",
+  "version": "0.0.0-development",
+  "description": "A React component that applies a depth of field effect to its children",
+  "main": "build/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plexey/react-depth-of-field.git"
+  },
+  "peerDependencies": {
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "test": "jest src/",
+    "start": "webpack --watch",
+    "build": "webpack",
+    "commitmsg": "commitlint -e",
+    "precommit": "npm run test",
+    "semantic-release": "semantic-release"
+  },
+  "author": {
+    "name": "Tom Trinca",
+    "email": "tomtrinca@protonmail.com"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^6.1.0",
+    "@commitlint/config-angular": "^6.1.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "husky": "^0.14.3",
+    "jest": "^22.2.2",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-scripts": "1.0.13",
+    "semantic-release": "^12.4.1"
+  }
+}

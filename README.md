@@ -1,7 +1,7 @@
 React Depth of Field
 =========
 
-A React component which applies a dynamic depth of field effect to its children.
+A React component which applies a depth of field effect to its children.
 
 ## Demo
 
@@ -89,8 +89,6 @@ class ShowCase extends Component {
 }
 
 ```
-
-
 
 ## API Reference
 
