@@ -20,7 +20,7 @@ function createAnimationNode(
   return <div style={style}>{child}</div>;
 }
 
-class DepthOfField extends Component {
+export default class DepthOfField extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -89,5 +89,3 @@ DepthOfField.defaultProps = {
   animationStep: 1,
   animationTime: 300
 };
-
-export default DepthOfField;
