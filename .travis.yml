@@ -1,0 +1,11 @@
+language: node_js
+
+script:
+  # Run tests
+  - npm run test
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npm run semantic-release
