@@ -62,7 +62,7 @@ export default class DepthOfField extends Component {
     const { currentIndex } = this.state;
     const { blurIncrement, animationTime, children } = this.props;
     return (
-      <div>
+      <div className="depth-of-field-container">
         {React.Children.map(children, (child, nodeIndex) =>
           createAnimationNode(
             child,
