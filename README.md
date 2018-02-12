@@ -81,7 +81,7 @@ class ShowCase extends Component {
         animationTime={500}
       >
         {images.map(image => {
-          <Image onClick={() => changeTargetIndex(i)} key={image.id} {...image} />
+          <Image onClick={() => this.changeTargetIndex(i)} key={image.id} {...image} />
         })}
       </DepthOfField>
     );
