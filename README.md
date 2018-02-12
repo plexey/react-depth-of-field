@@ -5,7 +5,7 @@ A React component which applies a depth of field effect to its children.
 
 ## Demo
 
-<a href="http://react-dof.surge.sh/" target="_blank">__Try it here__</a>
+<a href="http://react-depth-of-field.surge.sh/" target="_blank">__Try it here__</a>
 
 ## Table of Contents
 
