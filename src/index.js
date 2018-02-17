@@ -86,6 +86,7 @@ DepthOfField.propTypes = {
 };
 
 DepthOfField.defaultProps = {
+  animationTime: 300,
   animationStep: 1,
-  animationTime: 300
+  blurIncrement: 1
 };
